@@ -1,0 +1,22 @@
+port:
+  tcp:8670:
+    listening: true
+  tcp:2181:
+    listening: false
+  tcp:3888:
+    listening: false
+zookeeper:
+  exists: true
+  uid: 1007
+  gid: 1008
+  groups:
+  - hadoop
+  home: /home/zookeeper
+  shell: /bin/bash
+command:
+  jps:
+    exit-status: 0
+    stdout:
+    - QuorumPeerMain
+    stderr: []
+    timeout: 10000

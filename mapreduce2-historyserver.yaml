@@ -1,0 +1,22 @@
+port:
+  tcp:8670:
+    listening: true
+  tcp:10020:
+    listening: true
+  tcp:19888:
+    listening: true
+mapred:
+  exists: true
+  uid: 1019
+  gid: 1008
+  groups:
+  - hadoop
+  home: /home/mapred
+  shell: /bin/bash
+command:
+  jps:
+    exit-status: 0
+    stdout:
+    - JobHistoryServer
+    stderr: []
+    timeout: 10000
