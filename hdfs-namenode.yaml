@@ -8,8 +8,8 @@ port:
 user:
   hdfs:
     exists: true
-    uid: 1016
-    gid: 1008
+    uid: 1007
+    gid: 1005
     groups:
     - hadoop
     - hdfs

@@ -7,8 +7,8 @@ port:
     listening: false
 zookeeper:
   exists: true
-  uid: 1007
-  gid: 1008
+  uid: 1004
+  gid: 1005
   groups:
   - hadoop
   home: /home/zookeeper
